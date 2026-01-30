@@ -1,3 +1,11 @@
+.app-root {
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+
 .app-header {
   display: flex;
   justify-content: flex-end;
@@ -96,7 +104,26 @@ input::placeholder {
   padding: 60px 40px;
   border: #db87d3 2px solid;
   background: linear-gradient(135deg, #fb93bd79, #e89abe);
+  border-radius: 16px;
 }
+
+/* ✅ Mobile Fix */
+@media (max-width: 600px) {
+  .letter {
+    padding: 28px 18px;
+    margin: 16px auto;
+  }
+
+  .letter h1 {
+    font-size: 1.8rem;
+  }
+
+  .letter p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
+
 
 .letter h1 {
   margin-bottom: 12px;
