@@ -19,8 +19,8 @@ export default function Letter() {
         it shows that you’re not afraid to be you around me and that all I hope
         for, that you see me as a safe space. I’m very grateful that you have
         given me a chance at experiencing true love and I have no intentions on
-        taking that for granted. I will continue to grow and learn to that you
-        are continuously loved the way you deserved to be.
+        taking that for granted. I will continue to grow and learn so that you
+        are continuously loved the way you deserve to be.
       </p>{" "}
       <p>
         I can’t wait to experience more late night calls, birthdays, valentines,
