@@ -1,0 +1,131 @@
+.app-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 20px;
+}
+
+.logout {
+  background: #db87d3;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.login-form {
+  width: 450px;
+
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-form h2 {
+  margin: 20px 0 20px 0;
+  color: #333;
+  text-align: center;
+}
+
+.login-form input[type="password"] {
+    background: #f19b9b;
+  padding: 10px 12px;
+  border-radius: 8px;
+  outline: none;
+  transition:
+  box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.login-form input[type="password"]:focus {
+  border-color: #ffd1b3;
+  box-shadow: 0 6px 18px rgba(208, 42, 139, 0.12);
+}
+
+.login-form p {
+  margin: 0;
+  font-size: 13px;
+  color: #777;
+}
+
+.login-form button {
+  margin-top: 6px;
+  padding: 10px 12px;
+  background: linear-gradient(90deg, #ff7acc, #f58f8f);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-form .error {
+  color: #b00020;
+  font-weight: 600;
+  margin-top: 6px;
+  text-align: left;
+}
+
+@media (max-width: 420px) {
+  .login-form {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+  }
+}
+
+
+.letter {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 60px 40px;
+  border: #db87d3 2px solid;
+  background: linear-gradient(135deg, #fb93bd79, #e89abe);
+}
+
+.letter h1 {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.gallery {
+  max-width: 1000px;
+  margin: 24px auto 80px;
+  padding: 0 20px 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.grid img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.empty {
+  color: #666;
+  padding: 20px 0;
+}
+
+
