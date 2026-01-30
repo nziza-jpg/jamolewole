@@ -35,6 +35,7 @@ export default function Login({ onSuccess }: LoginProps) {
           placeholder="MMDDYYYY"
         />
         <p>Hint: "feel like you're in a movie"</p>
+        <p>PS: scan the code before opening the website and also you might need to zoom out if its too upclose the responsiveness is a bit fucked.</p>
         <button type="submit">Enter</button>
         {error && <div className="error">{error}</div>}
       </form>
